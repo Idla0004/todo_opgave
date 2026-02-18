@@ -1,11 +1,11 @@
 @font-face {
   font-family: bebasneue;
-  src: url(/fonts/BebasNeue-Regular.ttf);
+  src: url(../todo_opgave/fonts/BebasNeue-Regular.ttf);
 }
 
 @font-face {
   font-family: poppins;
-  src: url(/fonts/Poppins-Regular.ttf);
+  src: url(../todo_opgave/fonts/Poppins-Regular.ttf);
 }
 
 h1 {
