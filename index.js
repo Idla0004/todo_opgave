@@ -70,12 +70,8 @@ function showTaskArr() {
   <p class="textelement">${elm.text}</p>
     <p class="amountelement">${elm.amount}</p>
   <img class="star" src="img/${elm.star ? "star.webp" : "starfilled.webp"}" alt="Star icon"/>
+  <img class="deleteimg" src="img/trashclosed.webp" ${elm.delete}></img>
 `;
-
-    // hvis to-doen er checked af, tilføjer jeg delete-ikonet
-    if (!elm.unchecked) {
-      li.innerHTML += `<img class="deleteimg" src="img/trashclosed.webp" ${elm.delete}></img>`;
-    }
 
     // Tilføjer to-do's i de rigtige containers
     if (elm.unchecked) {
