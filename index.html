@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body class="todo-body">
+    <h1>TO-DO LISTE</h1>
+    <div>
+      <button id="btntodo" class="tab active_tab" data-filter="todo">
+        To Do
+      </button>
+      <button id="btndone" class="tab" data-filter="done">Done</button>
+    </div>
+    <section id="todolist">
+      <div class="todo-box">
+        <input type="text" id="todo_input" placeholder="Add to-do.." />
+        <input
+          type="number"
+          name="Number"
+          id="amount_input"
+          placeholder="Add amount"
+        />
+        <button class="writetodobtn">Add to list</button>
+      </div>
+      <div class="info">
+        <p class="important">
+          Important? - check off
+          <img src="img/star.webp" alt="star icon" class="uncheckedstar" />
+        </p>
+      </div>
+      <ul class="todo_container"></ul>
+    </section>
+    <section id="donelist">
+      <div class="done-box hidden">
+        <ul class="done_container"></ul>
+      </div>
+    </section>
+  </body>
+</html>
