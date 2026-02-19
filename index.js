@@ -1,3 +1,4 @@
+// Variabler
 const todoText = document.querySelector("#todo_input");
 const amountField = document.querySelector("#amount_input");
 const todoBtn = document.querySelector(".writetodobtn");
@@ -14,6 +15,7 @@ if (savedTodoArr) {
   showTaskArr(); // Vis opgaverne ved sidenes start
 }
 
+// Eventlisteners på knapper
 todoBtn.addEventListener("click", submitToDo);
 notdoneBtn.addEventListener("click", showNotDonelist);
 doneBtn.addEventListener("click", showDonelist);
@@ -117,8 +119,3 @@ function showTaskArr() {
     });
   });
 }
-
-// skal afspejle at id er valgt, når en ting på listen kan slettes igen.
-// kig på local storage øvelse fra fredag d. 13. februar
-
-// måske bruges til todo eller done ikoner
