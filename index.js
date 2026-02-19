@@ -2,7 +2,6 @@ const todoText = document.querySelector("#todo_input");
 const amountField = document.querySelector("#amount_input");
 const todoBtn = document.querySelector(".writetodobtn");
 const todoContainer = document.querySelector(".todo_container");
-const unchecked = document.querySelector(".unchecked");
 const notdoneBtn = document.querySelector("#btntodo");
 const doneBtn = document.querySelector("#btndone");
 const doneContainer = document.querySelector(".done_container");
