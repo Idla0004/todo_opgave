@@ -95,7 +95,7 @@ function showTaskArr() {
         if (!elm.unchecked) {
           setTimeout(() => {
             showTaskArr();
-          }, 500); // (flytter den færdige opgave til "done"-listen efter forsinkelse på halvt sekund.
+          }, 800); // (flytter den færdige opgave til "done"-listen efter forsinkelse på halvt sekund.
         }
       } else if (evt.target.classList.contains("star")) {
         console.log("vis ikon");
